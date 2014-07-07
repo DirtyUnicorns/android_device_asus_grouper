@@ -36,3 +36,7 @@ PRODUCT_BRAND := Android
 PRODUCT_MODEL := Nexus 7
 PRODUCT_MANUFACTURER := Asus
 PRODUCT_RESTRICT_VENDOR_FILES := false
+
+# Inline kernel building
+TARGET_KERNEL_SOURCE := kernel/asus/grouper
+TARGET_KERNEL_CONFIG := cyanogenmod_grouper_defconfig
