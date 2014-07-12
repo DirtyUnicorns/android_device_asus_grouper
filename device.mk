@@ -32,3 +32,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 DEVICE_PACKAGE_OVERLAYS := \
     device/asus/grouper/overlay
+
+PRODUCT_COPY_FILES += \
+    vendor/du/bootanimations/bootanimation_1280_800.zip:system/media/bootanimation.zip
